@@ -43,5 +43,12 @@ class ViewController: UIViewController {
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
+    @IBAction func blackButton(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.blackColor()
+    }
+    
+    @IBAction func whiteButton(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.whiteColor()
+    }
 }
 
