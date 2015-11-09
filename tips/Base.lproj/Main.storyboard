@@ -110,7 +110,7 @@
                     <navigationItem key="navigationItem" title="Title" id="QQB-jf-B5b">
                         <barButtonItem key="rightBarButtonItem" title="Setting" id="r5D-HK-DXs">
                             <connections>
-                                <segue destination="jnr-lZ-w7e" kind="modal" id="ybm-Aa-9gi"/>
+                                <segue destination="jnr-lZ-w7e" kind="push" id="ybm-Aa-9gi"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -146,6 +146,24 @@
                                     <navigationItem title="Title" id="cHt-qQ-2PI"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bMp-QC-AI1">
+                                <rect key="frame" x="28" y="78" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="White"/>
+                                <connections>
+                                    <action selector="blackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHi-bN-qi3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bQ4-fp-dm8">
+                                <rect key="frame" x="270" y="78" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Black"/>
+                                <connections>
+                                    <action selector="blackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ywa-Ng-3Pm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
